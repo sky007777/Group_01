@@ -7,12 +7,12 @@
 
     <title>AdminLTE 3 | Starter</title>
    
-    @Html.Partial("~/Views/Shared/AdminLTE/_Styles.cshtml")
+    <partial name="~/Views/Shared/AdminLTE/_Styles.cshtml" />
 </head>
 <body class="hold-transition sidebar-mini">
     <div class="wrapper">
-        @Html.Partial("~/Views/Shared/AdminLTE/_TopNavigation.cshtml")
-        @Html.Partial("~/Views/Shared/AdminLTE/_ManiNavigation.cshtml")
+        <partial name="~/Views/Shared/AdminLTE/_TopNavigation.cshtml"/>
+        <partial name="~/Views/Shared/AdminLTE/_MainNavigation.cshtml" />
         <div class="content-wrapper">
             <div class="content-header">
                 <div class="container-fluid">
@@ -41,8 +41,8 @@
                 <p>Sidebar content</p>
             </div>
         </aside>
-        @Html.Partial("~/Views/Shared/AdminLTE/_Footer.cshtml")
+        <partial name="~/Views/Shared/AdminLTE/_Footer.cshtml" />
     </div>
-    @Html.Partial("~/Views/Shared/AdminLTE/_Scripts.cshtml")
+    <partial name="~/Views/Shared/AdminLTE/_Scripts.cshtml" />
 </body>
 </html>
